@@ -1,0 +1,535 @@
+Var1,temp1,temp2,temp3,pop1,Var2,temp4,temp5,temp6,pop2,popcomp,pop_comp,Qual_ecology_score,APS,Correlation,Ecology,temp,Geography,combined,APS2,comparison,least.cost.distance,euc.distance
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,boot,lake,boot lake,bea lake_boot lake,bea_lake_boot_lake,3,Allopatric,0.382397528, Same_Ecology, bea    boot  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_bea lake_pacific_boot lake,2668.239522,1977
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,constance,lake,constance lake,bea lake_constance lake,bea_lake_constance_lake,3,Allopatric,0.296632765, Same_Ecology, bea    constance  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_bea lake_pacific_constance lake,18486.16003,7758
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,geneva,lake,geneva lake,bea lake_geneva lake,bea_lake_geneva_lake,3,Allopatric,0.222210826, Same_Ecology, bea    geneva  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_bea lake_pacific_geneva lake,16589.94919,7827
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,hadsten,lake,hadsten lake,bea lake_hadsten lake,bea_lake_hadsten_lake,3,Allopatric,0.166468738, Same_Ecology, bea    hadsten  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_bea lake_pacific_hadsten lake,12632.6984,6785
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,hald,lake,hald lake,bea lake_hald lake,bea_lake_hald_lake,3,Allopatric,0.196214416, Same_Ecology, bea    hald  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_bea lake_pacific_hald lake,12357.53431,6771
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,joes,lake,joes lake,bea lake_joes lake,bea_lake_joes_lake,3,Allopatric,0.390381176, Same_Ecology, bea    joes  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_bea lake_pacific_joes lake,1986.18092,1858
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,misty,lake,misty lake,bea lake_misty lake,bea_lake_misty_lake,3,Allopatric,0.531564384, Same_Ecology, bea    misty  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_bea lake_pacific_misty lake,1992.548631,1865
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,mud,lake,mud lake,bea lake_mud lake,bea_lake_mud_lake,3,Allopatric,0.809787464, Same_Ecology, bea    mud  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_bea lake_pacific_mud lake,14.14844902,43
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,pcr,lake,pcr lake,bea lake_pcr lake,bea_lake_pcr_lake,3,Allopatric,0.500018307, Same_Ecology, bea    pcr  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_bea lake_pacific_pcr lake,2763.52171,2757
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,roberts,lake,roberts lake,bea lake_roberts lake,bea_lake_roberts_lake,3,Allopatric,0.53416961, Same_Ecology, bea    roberts  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_bea lake_pacific_roberts lake,2668.239522,1967
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,constance,lake,constance lake,boot lake_constance lake,boot_lake_constance_lake,3,Allopatric,0.432584991, Same_Ecology, boot    constance  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_boot lake_pacific_constance lake,20648.0939,8347
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,geneva,lake,geneva lake,boot lake_geneva lake,boot_lake_geneva_lake,3,Allopatric,0.373681037, Same_Ecology, boot    geneva  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_boot lake_pacific_geneva lake,18751.88307,8339
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,hadsten,lake,hadsten lake,boot lake_hadsten lake,boot_lake_hadsten_lake,3,Allopatric,0.128107305, Same_Ecology, boot    hadsten  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_boot lake_pacific_hadsten lake,14794.63227,7496
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,hald,lake,hald lake,boot lake_hald lake,boot_lake_hald_lake,3,Allopatric,0.139727712, Same_Ecology, boot    hald  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_boot lake_pacific_hald lake,14519.46818,7470
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,joes,lake,joes lake,boot lake_joes lake,boot_lake_joes_lake,3,Allopatric,0.508131679, Same_Ecology, boot    joes  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_boot lake_pacific_joes lake,874.3524653,145
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,misty,lake,misty lake,boot lake_misty lake,boot_lake_misty_lake,3,Allopatric,0.60285225, Same_Ecology, boot    misty  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_boot lake_pacific_misty lake,883.6852253,136
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,mud,lake,mud lake,boot lake_mud lake,boot_lake_mud_lake,3,Allopatric,0.390554439, Same_Ecology, boot    mud  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_boot lake_pacific_mud lake,2682.387971,1937
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,pcr,lake,pcr lake,boot lake_pcr lake,boot_lake_pcr_lake,3,Allopatric,0.507250846, Same_Ecology, boot    pcr  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_boot lake_pacific_pcr lake,875.7044239,800
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,roberts,lake,roberts lake,boot lake_roberts lake,boot_lake_roberts_lake,3,Allopatric,0.637909882, Same_Ecology, boot    roberts  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_boot lake_pacific_roberts lake,0,12
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,constance,stream,constance stream,boot stream_constance stream,boot_stream_constance_stream,3,Allopatric,0.399731197, Same_Ecology, boot    constance  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_boot stream_pacific_constance stream,20648.0939,8346
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,geneva,stream,geneva stream,boot stream_geneva stream,boot_stream_geneva_stream,3,Allopatric,0.332202214, Same_Ecology, boot    geneva  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_boot stream_pacific_geneva stream,18751.88307,8359
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,joes,stream,joes stream,boot stream_joes stream,boot_stream_joes_stream,3,Allopatric,0.563243585, Same_Ecology, boot    joes  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_boot stream_pacific_joes stream,874.3524653,146
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,misty,stream,misty stream,boot stream_misty stream,boot_stream_misty_stream,3,Allopatric,0.640711509, Same_Ecology, boot    misty  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_boot stream_pacific_misty stream,883.6852253,136
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,roberts,stream,roberts stream,boot stream_roberts stream,boot_stream_roberts_stream,3,Allopatric,0.648391007, Same_Ecology, boot    roberts  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_boot stream_pacific_roberts stream,0,14
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,wc,stream,wc stream,boot stream_wc stream,boot_stream_wc_stream,3,Allopatric,0.474892736, Same_Ecology, boot    wc  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_boot stream_pacific_wc stream,961.0868583,770
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,lake,constance lake,pacific,marine,geneva,lake,geneva lake,constance lake_geneva lake,constance_lake_geneva_lake,3,Allopatric,0.608193143, Same_Ecology, constance    geneva  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_constance lake_pacific_geneva lake,1906.331695,247
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,lake,constance lake,pacific,marine,hadsten,lake,hadsten lake,constance lake_hadsten lake,constance_lake_hadsten_lake,3,Allopatric,0.250633203, Same_Ecology, constance    hadsten  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_constance lake_pacific_hadsten lake,7530.341319,1002
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,lake,constance lake,pacific,marine,hald,lake,hald lake,constance lake_hald lake,constance_lake_hald_lake,3,Allopatric,0.303743827, Same_Ecology, constance    hald  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_constance lake_pacific_hald lake,7117.558398,1007
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,lake,constance lake,pacific,marine,joes,lake,joes lake,constance lake_joes lake,constance_lake_joes_lake,3,Allopatric,0.386764844, Same_Ecology, constance    joes  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_constance lake_pacific_joes lake,19967.57576,8382
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,lake,constance lake,pacific,marine,misty,lake,misty lake,constance lake_misty lake,constance_lake_misty_lake,3,Allopatric,0.446756961, Same_Ecology, constance    misty  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_constance lake_pacific_misty lake,19967.57576,8379
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,lake,constance lake,pacific,marine,mud,lake,mud lake,constance lake_mud lake,constance_lake_mud_lake,3,Allopatric,0.301258146, Same_Ecology, constance    mud  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_constance lake_pacific_mud lake,18493.23014,7752
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,lake,constance lake,pacific,marine,pcr,lake,pcr lake,constance lake_pcr lake,constance_lake_pcr_lake,3,Allopatric,0.364134364, Same_Ecology, constance    pcr  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_constance lake_pacific_pcr lake,20770.9961,8814
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,lake,constance lake,pacific,marine,roberts,lake,roberts lake,constance lake_roberts lake,constance_lake_roberts_lake,3,Allopatric,0.467857866, Same_Ecology, constance    roberts  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_constance lake_pacific_roberts lake,20648.0939,8337
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,stream,constance stream,pacific,marine,geneva,stream,geneva stream,constance stream_geneva stream,constance_stream_geneva_stream,3,Allopatric,0.609440334, Same_Ecology, constance    geneva  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_constance stream_pacific_geneva stream,1906.331695,236
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,stream,constance stream,pacific,marine,joes,stream,joes stream,constance stream_joes stream,constance_stream_joes_stream,3,Allopatric,0.393001422, Same_Ecology, constance    joes  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_constance stream_pacific_joes stream,19967.57576,8382
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,stream,constance stream,pacific,marine,misty,stream,misty stream,constance stream_misty stream,constance_stream_misty_stream,3,Allopatric,0.423956691, Same_Ecology, constance    misty  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_constance stream_pacific_misty stream,19967.57576,8377
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,stream,constance stream,pacific,marine,roberts,stream,roberts stream,constance stream_roberts stream,constance_stream_roberts_stream,3,Allopatric,0.442988283, Same_Ecology, constance    roberts  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_constance stream_pacific_roberts stream,20648.0939,8335
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,stream,constance stream,pacific,marine,wc,stream,wc stream,constance stream_wc stream,constance_stream_wc_stream,3,Allopatric,0.36990967, Same_Ecology, constance    wc  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_constance stream_pacific_wc stream,20830.26688,8965
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,lake,geneva lake,pacific,marine,hadsten,lake,hadsten lake,geneva lake_hadsten lake,geneva_lake_hadsten_lake,3,Allopatric,0.294252838, Same_Ecology, geneva    hadsten  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_geneva lake_pacific_hadsten lake,5634.130484,1143
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,lake,geneva lake,pacific,marine,hald,lake,hald lake,geneva lake_hald lake,geneva_lake_hald_lake,3,Allopatric,0.313427675, Same_Ecology, geneva    hald  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_geneva lake_pacific_hald lake,5221.347563,1139
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,lake,geneva lake,pacific,marine,joes,lake,joes lake,geneva lake_joes lake,geneva_lake_joes_lake,3,Allopatric,0.37451048, Same_Ecology, geneva    joes  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_geneva lake_pacific_joes lake,18071.36492,8381
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,lake,geneva lake,pacific,marine,misty,lake,misty lake,geneva lake_misty lake,geneva_lake_misty_lake,3,Allopatric,0.385843181, Same_Ecology, geneva    misty  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_geneva lake_pacific_misty lake,18071.36492,8377
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,lake,geneva lake,pacific,marine,mud,lake,mud lake,geneva lake_mud lake,geneva_lake_mud_lake,3,Allopatric,0.238610549, Same_Ecology, geneva    mud  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_geneva lake_pacific_mud lake,16597.0193,7819
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,lake,geneva lake,pacific,marine,pcr,lake,pcr lake,geneva lake_pcr lake,geneva_lake_pcr_lake,3,Allopatric,0.286808895, Same_Ecology, geneva    pcr  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_geneva lake_pacific_pcr lake,18874.78526,8781
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,lake,geneva lake,pacific,marine,roberts,lake,roberts lake,geneva lake_roberts lake,geneva_lake_roberts_lake,3,Allopatric,0.406756168, Same_Ecology, geneva    roberts  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_geneva lake_pacific_roberts lake,18751.88307,8330
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,stream,geneva stream,pacific,marine,joes,stream,joes stream,geneva stream_joes stream,geneva_stream_joes_stream,3,Allopatric,0.368170628, Same_Ecology, geneva    joes  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_geneva stream_pacific_joes stream,18071.36492,8400
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,stream,geneva stream,pacific,marine,misty,stream,misty stream,geneva stream_misty stream,geneva_stream_misty_stream,3,Allopatric,0.390180712, Same_Ecology, geneva    misty  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_geneva stream_pacific_misty stream,18071.36492,8395
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,stream,geneva stream,pacific,marine,roberts,stream,roberts stream,geneva stream_roberts stream,geneva_stream_roberts_stream,3,Allopatric,0.398126944, Same_Ecology, geneva    roberts  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_geneva stream_pacific_roberts stream,18751.88307,8348
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,stream,geneva stream,pacific,marine,wc,stream,wc stream,geneva stream_wc stream,geneva_stream_wc_stream,3,Allopatric,0.325410084, Same_Ecology, geneva    wc  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_geneva stream_pacific_wc stream,18934.05605,8960
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hadsten,lake,hadsten lake,pacific,marine,hald,lake,hald lake,hadsten lake_hald lake,hadsten_lake_hald_lake,3,Allopatric,0.59314878, Same_Ecology, hadsten    hald  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_hadsten lake_pacific_hald lake,406.3070256,43
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hadsten,lake,hadsten lake,pacific,marine,joes,lake,joes lake,hadsten lake_joes lake,hadsten_lake_joes_lake,3,Allopatric,0.11875098, Same_Ecology, hadsten    joes  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_hadsten lake_pacific_joes lake,14114.11412,7519
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hadsten,lake,hadsten lake,pacific,marine,misty,lake,misty lake,hadsten lake_misty lake,hadsten_lake_misty_lake,3,Allopatric,0.129718682, Same_Ecology, hadsten    misty  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_hadsten lake_pacific_misty lake,14114.11412,7517
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hadsten,lake,hadsten lake,pacific,marine,mud,lake,mud lake,hadsten lake_mud lake,hadsten_lake_mud_lake,3,Allopatric,0.172128901, Same_Ecology, hadsten    mud  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_hadsten lake_pacific_mud lake,12639.76851,6781
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hadsten,lake,hadsten lake,pacific,marine,pcr,lake,pcr lake,hadsten lake_pcr lake,hadsten_lake_pcr_lake,3,Allopatric,0.153272436, Same_Ecology, hadsten    pcr  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_hadsten lake_pacific_pcr lake,14917.53447,8023
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hadsten,lake,hadsten lake,pacific,marine,roberts,lake,roberts lake,hadsten lake_roberts lake,hadsten_lake_roberts_lake,3,Allopatric,0.129796271, Same_Ecology, hadsten    roberts  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_hadsten lake_pacific_roberts lake,14794.63227,7486
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hald,lake,hald lake,pacific,marine,joes,lake,joes lake,hald lake_joes lake,hald_lake_joes_lake,3,Allopatric,0.128336852, Same_Ecology, hald    joes  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_hald lake_pacific_joes lake,13838.95003,7494
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hald,lake,hald lake,pacific,marine,misty,lake,misty lake,hald lake_misty lake,hald_lake_misty_lake,3,Allopatric,0.169216404, Same_Ecology, hald    misty  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_hald lake_pacific_misty lake,13838.95003,7491
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hald,lake,hald lake,pacific,marine,mud,lake,mud lake,hald lake_mud lake,hald_lake_mud_lake,3,Allopatric,0.194214416, Same_Ecology, hald    mud  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_hald lake_pacific_mud lake,12364.60441,6767
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hald,lake,hald lake,pacific,marine,pcr,lake,pcr lake,hald lake_pcr lake,hald_lake_pcr_lake,3,Allopatric,0.165807913, Same_Ecology, hald    pcr  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_hald lake_pacific_pcr lake,14642.37037,7993
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hald,lake,hald lake,pacific,marine,roberts,lake,roberts lake,hald lake_roberts lake,hald_lake_roberts_lake,3,Allopatric,0.136804, Same_Ecology, hald    roberts  , Diff_Ocean,Same_Ecology_Diff_Ocean,Allopatric,pacific_hald lake_pacific_roberts lake,14519.46818,7460
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,lake,joes lake,pacific,marine,misty,lake,misty lake,joes lake_misty lake,joes_lake_misty_lake,3,Allopatric,0.583550107, Same_Ecology, joes    misty  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_joes lake_pacific_misty lake,32.31526693,10
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,lake,joes lake,pacific,marine,mud,lake,mud lake,joes lake_mud lake,joes_lake_mud_lake,3,Allopatric,0.406078593, Same_Ecology, joes    mud  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_joes lake_pacific_mud lake,2000.329369,1819
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,lake,joes lake,pacific,marine,pcr,lake,pcr lake,joes lake_pcr lake,joes_lake_pcr_lake,3,Allopatric,0.464163741, Same_Ecology, joes    pcr  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_joes lake_pacific_pcr lake,969.6346534,902
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,lake,joes lake,pacific,marine,roberts,lake,roberts lake,joes lake_roberts lake,joes_lake_roberts_lake,3,Allopatric,0.596837058, Same_Ecology, joes    roberts  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_joes lake_pacific_roberts lake,874.3524653,142
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,stream,joes stream,pacific,marine,misty,stream,misty stream,joes stream_misty stream,joes_stream_misty_stream,3,Allopatric,0.596118611, Same_Ecology, joes    misty  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_joes stream_pacific_misty stream,32.31526693,11
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,stream,joes stream,pacific,marine,roberts,stream,roberts stream,joes stream_roberts stream,joes_stream_roberts_stream,3,Allopatric,0.602096939, Same_Ecology, joes    roberts  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_joes stream_pacific_roberts stream,874.3524653,142
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,stream,joes stream,pacific,marine,wc,stream,wc stream,joes stream_wc stream,joes_stream_wc_stream,3,Allopatric,0.477217129, Same_Ecology, joes    wc  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_joes stream_pacific_wc stream,1054.886729,838
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,benthic,lq benthic,pacific,marine,pax,benthic,pax benthic,lq benthic_pax benthic,lq_benthic_pax_benthic,3,Allopatric,0.758416019, Same_Ecology, lq    pax  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_lq benthic_pacific_pax benthic,28.79342402,30
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,benthic,lq benthic,pacific,marine,pri,benthic,pri benthic,lq benthic_pri benthic,lq_benthic_pri_benthic,3,Allopatric,0.78519984, Same_Ecology, lq    pri  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_lq benthic_pacific_pri benthic,36.82027115,34
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,limnetic,lq limnetic,pacific,marine,pax,limnetic,pax limnetic,lq limnetic_pax limnetic,lq_limnetic_pax_limnetic,3,Allopatric,0.590107116, Same_Ecology, lq    pax  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_lq limnetic_pacific_pax limnetic,28.79342402,30
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,limnetic,lq limnetic,pacific,marine,pri,limnetic,pri limnetic,lq limnetic_pri limnetic,lq_limnetic_pri_limnetic,3,Allopatric,0.598233837, Same_Ecology, lq    pri  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_lq limnetic_pacific_pri limnetic,36.82027115,34
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,misty,lake,misty lake,pacific,marine,mud,lake,mud lake,misty lake_mud lake,misty_lake_mud_lake,3,Allopatric,0.556585211, Same_Ecology, misty    mud  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_misty lake_pacific_mud lake,2006.69708,1826
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,misty,lake,misty lake,pacific,marine,pcr,lake,pcr lake,misty lake_pcr lake,misty_lake_pcr_lake,3,Allopatric,0.611856595, Same_Ecology, misty    pcr  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_misty lake_pacific_pcr lake,978.9674133,896
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,misty,lake,misty lake,pacific,marine,roberts,lake,roberts lake,misty lake_roberts lake,misty_lake_roberts_lake,3,Allopatric,0.755867147, Same_Ecology, misty    roberts  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_misty lake_pacific_roberts lake,883.6852253,132
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,misty,stream,misty stream,pacific,marine,roberts,stream,roberts stream,misty stream_roberts stream,misty_stream_roberts_stream,3,Allopatric,0.725095077, Same_Ecology, misty    roberts  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_misty stream_pacific_roberts stream,883.6852253,132
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,misty,stream,misty stream,pacific,marine,wc,stream,wc stream,misty stream_wc stream,misty_stream_wc_stream,3,Allopatric,0.566286692, Same_Ecology, misty    wc  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_misty stream_pacific_wc stream,1064.219489,834
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,mud,lake,mud lake,pacific,marine,pcr,lake,pcr lake,mud lake_pcr lake,mud_lake_pcr_lake,3,Allopatric,0.508185697, Same_Ecology, mud    pcr  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_mud lake_pacific_pcr lake,2777.670159,2718
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,mud,lake,mud lake,pacific,marine,roberts,lake,roberts lake,mud lake_roberts lake,mud_lake_roberts_lake,3,Allopatric,0.550750621, Same_Ecology, mud    roberts  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_mud lake_pacific_roberts lake,2682.387971,1928
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pax,benthic,pax benthic,pacific,marine,pri,benthic,pri benthic,pax benthic_pri benthic,pax_benthic_pri_benthic,3,Allopatric,0.840602563, Same_Ecology, pax    pri  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_pax benthic_pacific_pri benthic,27.22246315,5
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pax,limnetic,pax limnetic,pacific,marine,pri,limnetic,pri limnetic,pax limnetic_pri limnetic,pax_limnetic_pri_limnetic,3,Allopatric,0.731785355, Same_Ecology, pax    pri  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_pax limnetic_pacific_pri limnetic,27.22246315,5
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pcr,lake,pcr lake,pacific,marine,roberts,lake,roberts lake,pcr lake_roberts lake,pcr_lake_roberts_lake,3,Allopatric,0.615483916, Same_Ecology, pcr    roberts  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_pcr lake_pacific_roberts lake,875.7044239,811
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,roberts,stream,roberts stream,pacific,marine,wc,stream,wc stream,roberts stream_wc stream,roberts_stream_wc_stream,3,Allopatric,0.58807486, Same_Ecology, roberts    wc  , Same_Ocean,Same_Ecology_Same_Ocean,Allopatric,pacific_roberts stream_pacific_wc stream,961.0868583,783
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,lq,limnetic,lq limnetic,bea lake_lq limnetic,bea_lake_lq_limnetic,2,Allopatric,0.302293672, Diff_Ecology, bea    lq  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_bea lake_pacific_lq limnetic,2576.419409,2064
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,pax,limnetic,pax limnetic,bea lake_pax limnetic,bea_lake_pax_limnetic,2,Allopatric,0.421248604, Diff_Ecology, bea    pax  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_bea lake_pacific_pax limnetic,2595.480272,2041
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,pri,limnetic,pri limnetic,bea lake_pri limnetic,bea_lake_pri_limnetic,2,Allopatric,0.436145147, Diff_Ecology, bea    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_bea lake_pacific_pri limnetic,2603.507119,2036
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,lq,limnetic,lq limnetic,boot lake_lq limnetic,boot_lake_lq_limnetic,2,Allopatric,0.263968437, Diff_Ecology, boot    lq  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot lake_pacific_lq limnetic,120.3730956,96
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,pax,limnetic,pax limnetic,boot lake_pax limnetic,boot_lake_pax_limnetic,2,Allopatric,0.301784318, Diff_Ecology, boot    pax  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot lake_pacific_pax limnetic,78.48047012,67
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,pri,limnetic,pri limnetic,boot lake_pri limnetic,boot_lake_pri_limnetic,2,Allopatric,0.343754193, Diff_Ecology, boot    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot lake_pacific_pri limnetic,86.50731725,63
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,lq,benthic,lq benthic,boot stream_lq benthic,boot_stream_lq_benthic,2,Allopatric,0.472815192, Diff_Ecology, boot    lq  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot stream_pacific_lq benthic,120.3730956,97
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,pax,benthic,pax benthic,boot stream_pax benthic,boot_stream_pax_benthic,2,Allopatric,0.475200511, Diff_Ecology, boot    pax  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot stream_pacific_pax benthic,78.48047012,68
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,pri,benthic,pri benthic,boot stream_pri benthic,boot_stream_pri_benthic,2,Allopatric,0.485374561, Diff_Ecology, boot    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot stream_pacific_pri benthic,86.50731725,63
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,lake,constance lake,pacific,marine,lq,limnetic,lq limnetic,constance lake_lq limnetic,constance_lake_lq_limnetic,2,Allopatric,0.15334939, Diff_Ecology, constance    lq  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance lake_pacific_lq limnetic,20559.16009,8338
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,lake,constance lake,pacific,marine,pax,limnetic,pax limnetic,constance lake_pax limnetic,constance_lake_pax_limnetic,2,Allopatric,0.140664855, Diff_Ecology, constance    pax  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance lake_pacific_pax limnetic,20579.2316,8349
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,lake,constance lake,pacific,marine,pri,limnetic,pri limnetic,constance lake_pri limnetic,constance_lake_pri_limnetic,2,Allopatric,0.186969231, Diff_Ecology, constance    pri  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance lake_pacific_pri limnetic,20579.2316,8347
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,stream,constance stream,pacific,marine,lq,benthic,lq benthic,constance stream_lq benthic,constance_stream_lq_benthic,2,Allopatric,0.137715941, Diff_Ecology, constance    lq  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance stream_pacific_lq benthic,20559.16009,8336
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,stream,constance stream,pacific,marine,pax,benthic,pax benthic,constance stream_pax benthic,constance_stream_pax_benthic,2,Allopatric,0.116459264, Diff_Ecology, constance    pax  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance stream_pacific_pax benthic,20579.2316,8347
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,stream,constance stream,pacific,marine,pri,benthic,pri benthic,constance stream_pri benthic,constance_stream_pri_benthic,2,Allopatric,0.140273259, Diff_Ecology, constance    pri  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance stream_pacific_pri benthic,20579.2316,8345
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,lake,geneva lake,pacific,marine,lq,limnetic,lq limnetic,geneva lake_lq limnetic,geneva_lake_lq_limnetic,2,Allopatric,0.113769778, Diff_Ecology, geneva    lq  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva lake_pacific_lq limnetic,18662.94925,8327
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,lake,geneva lake,pacific,marine,pax,limnetic,pax limnetic,geneva lake_pax limnetic,geneva_lake_pax_limnetic,2,Allopatric,0.123159561, Diff_Ecology, geneva    pax  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva lake_pacific_pax limnetic,18683.02076,8339
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,lake,geneva lake,pacific,marine,pri,limnetic,pri limnetic,geneva lake_pri limnetic,geneva_lake_pri_limnetic,2,Allopatric,0.130425012, Diff_Ecology, geneva    pri  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva lake_pacific_pri limnetic,18683.02076,8337
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,stream,geneva stream,pacific,marine,lq,benthic,lq benthic,geneva stream_lq benthic,geneva_stream_lq_benthic,2,Allopatric,0.11779343, Diff_Ecology, geneva    lq  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva stream_pacific_lq benthic,18662.94925,8345
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,stream,geneva stream,pacific,marine,pax,benthic,pax benthic,geneva stream_pax benthic,geneva_stream_pax_benthic,2,Allopatric,0.116009438, Diff_Ecology, geneva    pax  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva stream_pacific_pax benthic,18683.02076,8357
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,stream,geneva stream,pacific,marine,pri,benthic,pri benthic,geneva stream_pri benthic,geneva_stream_pri_benthic,2,Allopatric,0.113723219, Diff_Ecology, geneva    pri  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva stream_pacific_pri benthic,18683.02076,8355
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hadsten,lake,hadsten lake,pacific,marine,lq,limnetic,lq limnetic,hadsten lake_lq limnetic,hadsten_lake_lq_limnetic,2,Allopatric,0.054930706, Diff_Ecology, hadsten    lq  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_hadsten lake_pacific_lq limnetic,14705.69846,7496
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hadsten,lake,hadsten lake,pacific,marine,pax,limnetic,pax limnetic,hadsten lake_pax limnetic,hadsten_lake_pax_limnetic,2,Allopatric,0.09816761, Diff_Ecology, hadsten    pax  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_hadsten lake_pacific_pax limnetic,14725.76997,7504
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hadsten,lake,hadsten lake,pacific,marine,pri,limnetic,pri limnetic,hadsten lake_pri limnetic,hadsten_lake_pri_limnetic,2,Allopatric,0.074698845, Diff_Ecology, hadsten    pri  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_hadsten lake_pacific_pri limnetic,14725.76997,7502
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hald,lake,hald lake,pacific,marine,lq,limnetic,lq limnetic,hald lake_lq limnetic,hald_lake_lq_limnetic,2,Allopatric,0.09512851, Diff_Ecology, hald    lq  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_hald lake_pacific_lq limnetic,14430.53436,7469
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hald,lake,hald lake,pacific,marine,pax,limnetic,pax limnetic,hald lake_pax limnetic,hald_lake_pax_limnetic,2,Allopatric,0.12955257, Diff_Ecology, hald    pax  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_hald lake_pacific_pax limnetic,14450.60587,7478
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hald,lake,hald lake,pacific,marine,pri,limnetic,pri limnetic,hald lake_pri limnetic,hald_lake_pri_limnetic,2,Allopatric,0.141250044, Diff_Ecology, hald    pri  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_hald lake_pacific_pri limnetic,14450.60587,7475
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,lake,joes lake,pacific,marine,lq,limnetic,lq limnetic,joes lake_lq limnetic,joes_lake_lq_limnetic,2,Allopatric,0.226740012, Diff_Ecology, joes    lq  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_joes lake_pacific_lq limnetic,782.5323523,241
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,lake,joes lake,pacific,marine,pax,limnetic,pax limnetic,joes lake_pax limnetic,joes_lake_pax_limnetic,2,Allopatric,0.290389415, Diff_Ecology, joes    pax  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_joes lake_pacific_pax limnetic,801.5932153,211
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,lake,joes lake,pacific,marine,pri,limnetic,pri limnetic,joes lake_pri limnetic,joes_lake_pri_limnetic,2,Allopatric,0.29338656, Diff_Ecology, joes    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_joes lake_pacific_pri limnetic,809.6200624,207
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,stream,joes stream,pacific,marine,lq,benthic,lq benthic,joes stream_lq benthic,joes_stream_lq_benthic,2,Allopatric,0.361483635, Diff_Ecology, joes    lq  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_joes stream_pacific_lq benthic,782.5323523,243
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,stream,joes stream,pacific,marine,pax,benthic,pax benthic,joes stream_pax benthic,joes_stream_pax_benthic,2,Allopatric,0.347214865, Diff_Ecology, joes    pax  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_joes stream_pacific_pax benthic,801.5932153,213
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,stream,joes stream,pacific,marine,pri,benthic,pri benthic,joes stream_pri benthic,joes_stream_pri_benthic,2,Allopatric,0.378849277, Diff_Ecology, joes    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_joes stream_pacific_pri benthic,809.6200624,209
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,benthic,lq benthic,pacific,marine,misty,stream,misty stream,lq benthic_misty stream,lq_benthic_misty_stream,2,Allopatric,0.49979366, Diff_Ecology, lq    misty  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_lq benthic_pacific_misty stream,791.8651122,232
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,benthic,lq benthic,pacific,marine,roberts,stream,roberts stream,lq benthic_roberts stream,lq_benthic_roberts_stream,2,Allopatric,0.443881274, Diff_Ecology, lq    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_lq benthic_pacific_roberts stream,120.3730956,104
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,benthic,lq benthic,pacific,marine,wc,stream,wc stream,lq benthic_wc stream,lq_benthic_wc_stream,2,Allopatric,0.343102612, Diff_Ecology, lq    wc  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_lq benthic_pacific_wc stream,869.2667453,725
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,limnetic,lq limnetic,pacific,marine,misty,lake,misty lake,lq limnetic_misty lake,lq_limnetic_misty_lake,2,Allopatric,0.360217103, Diff_Ecology, lq    misty  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_lq limnetic_pacific_misty lake,791.8651122,231
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,limnetic,lq limnetic,pacific,marine,mud,lake,mud lake,lq limnetic_mud lake,lq_limnetic_mud_lake,2,Allopatric,0.341460569, Diff_Ecology, lq    mud  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_lq limnetic_pacific_mud lake,2590.567858,2024
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,limnetic,lq limnetic,pacific,marine,pcr,lake,pcr lake,lq limnetic_pcr lake,lq_limnetic_pcr_lake,2,Allopatric,0.322990134, Diff_Ecology, lq    pcr  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_lq limnetic_pacific_pcr lake,783.8843108,730
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,limnetic,lq limnetic,pacific,marine,roberts,lake,roberts lake,lq limnetic_roberts lake,lq_limnetic_roberts_lake,2,Allopatric,0.307889397, Diff_Ecology, lq    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_lq limnetic_pacific_roberts lake,120.3730956,102
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,misty,lake,misty lake,pacific,marine,pax,limnetic,pax limnetic,misty lake_pax limnetic,misty_lake_pax_limnetic,2,Allopatric,0.434944341, Diff_Ecology, misty    pax  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_misty lake_pacific_pax limnetic,810.9259752,202
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,misty,lake,misty lake,pacific,marine,pri,limnetic,pri limnetic,misty lake_pri limnetic,misty_lake_pri_limnetic,2,Allopatric,0.472516933, Diff_Ecology, misty    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_misty lake_pacific_pri limnetic,818.9528223,197
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,misty,stream,misty stream,pacific,marine,pax,benthic,pax benthic,misty stream_pax benthic,misty_stream_pax_benthic,2,Allopatric,0.482117201, Diff_Ecology, misty    pax  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_misty stream_pacific_pax benthic,810.9259752,203
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,misty,stream,misty stream,pacific,marine,pri,benthic,pri benthic,misty stream_pri benthic,misty_stream_pri_benthic,2,Allopatric,0.511714352, Diff_Ecology, misty    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_misty stream_pacific_pri benthic,818.9528223,198
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,mud,lake,mud lake,pacific,marine,pax,limnetic,pax limnetic,mud lake_pax limnetic,mud_lake_pax_limnetic,2,Allopatric,0.469383018, Diff_Ecology, mud    pax  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_mud lake_pacific_pax limnetic,2609.628721,2001
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,mud,lake,mud lake,pacific,marine,pri,limnetic,pri limnetic,mud lake_pri limnetic,mud_lake_pri_limnetic,2,Allopatric,0.459461009, Diff_Ecology, mud    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_mud lake_pacific_pri limnetic,2617.655568,1996
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pax,benthic,pax benthic,pacific,marine,roberts,stream,roberts stream,pax benthic_roberts stream,pax_benthic_roberts_stream,2,Allopatric,0.417021604, Diff_Ecology, pax    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_pax benthic_pacific_roberts stream,78.48047012,76
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pax,benthic,pax benthic,pacific,marine,wc,stream,wc stream,pax benthic_wc stream,pax_benthic_wc_stream,2,Allopatric,0.319699562, Diff_Ecology, pax    wc  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_pax benthic_pacific_wc stream,888.3276083,731
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pax,limnetic,pax limnetic,pacific,marine,pcr,lake,pcr lake,pax limnetic_pcr lake,pax_limnetic_pcr_lake,2,Allopatric,0.375295017, Diff_Ecology, pax    pcr  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_pax limnetic_pacific_pcr lake,802.9451738,745
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pax,limnetic,pax limnetic,pacific,marine,roberts,lake,roberts lake,pax limnetic_roberts lake,pax_limnetic_roberts_lake,2,Allopatric,0.388139576, Diff_Ecology, pax    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_pax limnetic_pacific_roberts lake,78.48047012,75
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pcr,lake,pcr lake,pacific,marine,pri,limnetic,pri limnetic,pcr lake_pri limnetic,pcr_lake_pri_limnetic,2,Allopatric,0.421052862, Diff_Ecology, pcr    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_pcr lake_pacific_pri limnetic,810.972021,750
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pri,benthic,pri benthic,pacific,marine,roberts,stream,roberts stream,pri benthic_roberts stream,pri_benthic_roberts_stream,2,Allopatric,0.451800645, Diff_Ecology, pri    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_pri benthic_pacific_roberts stream,86.50731725,72
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pri,benthic,pri benthic,pacific,marine,wc,stream,wc stream,pri benthic_wc stream,pri_benthic_wc_stream,2,Allopatric,0.35987335, Diff_Ecology, pri    wc  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_pri benthic_pacific_wc stream,896.3544554,735
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pri,limnetic,pri limnetic,pacific,marine,roberts,lake,roberts lake,pri limnetic_roberts lake,pri_limnetic_roberts_lake,2,Allopatric,0.402579727, Diff_Ecology, pri    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_pri limnetic_pacific_roberts lake,86.50731725,70
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,boot,stream,boot stream,bea lake_boot stream,bea_lake_boot_stream,2,Allopatric,0.455072714, Diff_Ecology, bea    boot  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_bea lake_pacific_boot stream,2668.239522,1977
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,constance,stream,constance stream,bea lake_constance stream,bea_lake_constance_stream,2,Allopatric,0.28377226, Diff_Ecology, bea    constance  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_bea lake_pacific_constance stream,18486.16003,7757
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,geneva,stream,geneva stream,bea lake_geneva stream,bea_lake_geneva_stream,2,Allopatric,0.257366791, Diff_Ecology, bea    geneva  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_bea lake_pacific_geneva stream,16589.94919,7842
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,joes,stream,joes stream,bea lake_joes stream,bea_lake_joes_stream,2,Allopatric,0.419157071, Diff_Ecology, bea    joes  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_bea lake_pacific_joes stream,1986.18092,1857
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,misty,stream,misty stream,bea lake_misty stream,bea_lake_misty_stream,2,Allopatric,0.53130318, Diff_Ecology, bea    misty  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_bea lake_pacific_misty stream,1992.548631,1864
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,roberts,stream,roberts stream,bea lake_roberts stream,bea_lake_roberts_stream,2,Allopatric,0.517484229, Diff_Ecology, bea    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_bea lake_pacific_roberts stream,2668.239522,1966
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,wc,stream,wc stream,bea lake_wc stream,bea_lake_wc_stream,2,Allopatric,0.449498241, Diff_Ecology, bea    wc  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_bea lake_pacific_wc stream,2848.773786,2654
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,constance,stream,constance stream,boot lake_constance stream,boot_lake_constance_stream,2,Allopatric,0.419413785, Diff_Ecology, boot    constance  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_boot lake_pacific_constance stream,20648.0939,8344
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,geneva,stream,geneva stream,boot lake_geneva stream,boot_lake_geneva_stream,2,Allopatric,0.357473087, Diff_Ecology, boot    geneva  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_boot lake_pacific_geneva stream,18751.88307,8357
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,joes,stream,joes stream,boot lake_joes stream,boot_lake_joes_stream,2,Allopatric,0.538105785, Diff_Ecology, boot    joes  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot lake_pacific_joes stream,874.3524653,147
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,misty,stream,misty stream,boot lake_misty stream,boot_lake_misty_stream,2,Allopatric,0.596701336, Diff_Ecology, boot    misty  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot lake_pacific_misty stream,883.6852253,137
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,roberts,stream,roberts stream,boot lake_roberts stream,boot_lake_roberts_stream,2,Allopatric,0.606019032, Diff_Ecology, boot    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot lake_pacific_roberts stream,0,13
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,wc,stream,wc stream,boot lake_wc stream,boot_lake_wc_stream,2,Allopatric,0.471620604, Diff_Ecology, boot    wc  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot lake_pacific_wc stream,961.0868583,771
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,constance,lake,constance lake,boot stream_constance lake,boot_stream_constance_lake,2,Allopatric,0.40281401, Diff_Ecology, boot    constance  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_boot stream_pacific_constance lake,20648.0939,8348
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,geneva,lake,geneva lake,boot stream_geneva lake,boot_stream_geneva_lake,2,Allopatric,0.337707829, Diff_Ecology, boot    geneva  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_boot stream_pacific_geneva lake,18751.88307,8341
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,hadsten,lake,hadsten lake,boot stream_hadsten lake,boot_stream_hadsten_lake,2,Allopatric,0.127297731, Diff_Ecology, boot    hadsten  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_boot stream_pacific_hadsten lake,14794.63227,7497
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,hald,lake,hald lake,boot stream_hald lake,boot_stream_hald_lake,2,Allopatric,0.160803464, Diff_Ecology, boot    hald  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_boot stream_pacific_hald lake,14519.46818,7471
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,joes,lake,joes lake,boot stream_joes lake,boot_stream_joes_lake,2,Allopatric,0.521088537, Diff_Ecology, boot    joes  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot stream_pacific_joes lake,874.3524653,145
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,misty,lake,misty lake,boot stream_misty lake,boot_stream_misty_lake,2,Allopatric,0.641493134, Diff_Ecology, boot    misty  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot stream_pacific_misty lake,883.6852253,135
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,mud,lake,mud lake,boot stream_mud lake,boot_stream_mud_lake,2,Allopatric,0.49095873, Diff_Ecology, boot    mud  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot stream_pacific_mud lake,2682.387971,1937
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,pcr,lake,pcr lake,boot stream_pcr lake,boot_stream_pcr_lake,2,Allopatric,0.529261201, Diff_Ecology, boot    pcr  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot stream_pacific_pcr lake,875.7044239,800
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,roberts,lake,roberts lake,boot stream_roberts lake,boot_stream_roberts_lake,2,Allopatric,0.645041308, Diff_Ecology, boot    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot stream_pacific_roberts lake,0,12
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,lake,constance lake,pacific,marine,geneva,stream,geneva stream,constance lake_geneva stream,constance_lake_geneva_stream,2,Allopatric,0.600851628, Diff_Ecology, constance    geneva  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_constance lake_pacific_geneva stream,1906.331695,240
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,lake,constance lake,pacific,marine,joes,stream,joes stream,constance lake_joes stream,constance_lake_joes_stream,2,Allopatric,0.378058653, Diff_Ecology, constance    joes  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance lake_pacific_joes stream,19967.57576,8384
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,lake,constance lake,pacific,marine,misty,stream,misty stream,constance lake_misty stream,constance_lake_misty_stream,2,Allopatric,0.440373399, Diff_Ecology, constance    misty  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance lake_pacific_misty stream,19967.57576,8379
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,lake,constance lake,pacific,marine,roberts,stream,roberts stream,constance lake_roberts stream,constance_lake_roberts_stream,2,Allopatric,0.451664286, Diff_Ecology, constance    roberts  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance lake_pacific_roberts stream,20648.0939,8337
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,lake,constance lake,pacific,marine,wc,stream,wc stream,constance lake_wc stream,constance_lake_wc_stream,2,Allopatric,0.37876678, Diff_Ecology, constance    wc  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance lake_pacific_wc stream,20830.26688,8967
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,stream,constance stream,pacific,marine,geneva,lake,geneva lake,constance stream_geneva lake,constance_stream_geneva_lake,2,Allopatric,0.619582005, Diff_Ecology, constance    geneva  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_constance stream_pacific_geneva lake,1906.331695,243
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,stream,constance stream,pacific,marine,hadsten,lake,hadsten lake,constance stream_hadsten lake,constance_stream_hadsten_lake,2,Allopatric,0.260831093, Diff_Ecology, constance    hadsten  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_constance stream_pacific_hadsten lake,7530.341319,1003
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,stream,constance stream,pacific,marine,hald,lake,hald lake,constance stream_hald lake,constance_stream_hald_lake,2,Allopatric,0.301633414, Diff_Ecology, constance    hald  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_constance stream_pacific_hald lake,7117.558398,1007
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,stream,constance stream,pacific,marine,joes,lake,joes lake,constance stream_joes lake,constance_stream_joes_lake,2,Allopatric,0.39246526, Diff_Ecology, constance    joes  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance stream_pacific_joes lake,19967.57576,8380
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,stream,constance stream,pacific,marine,misty,lake,misty lake,constance stream_misty lake,constance_stream_misty_lake,2,Allopatric,0.429276647, Diff_Ecology, constance    misty  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance stream_pacific_misty lake,19967.57576,8376
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,stream,constance stream,pacific,marine,mud,lake,mud lake,constance stream_mud lake,constance_stream_mud_lake,2,Allopatric,0.287526468, Diff_Ecology, constance    mud  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance stream_pacific_mud lake,18493.23014,7751
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,stream,constance stream,pacific,marine,pcr,lake,pcr lake,constance stream_pcr lake,constance_stream_pcr_lake,2,Allopatric,0.350445293, Diff_Ecology, constance    pcr  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance stream_pacific_pcr lake,20770.9961,8812
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,stream,constance stream,pacific,marine,roberts,lake,roberts lake,constance stream_roberts lake,constance_stream_roberts_lake,2,Allopatric,0.470354036, Diff_Ecology, constance    roberts  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance stream_pacific_roberts lake,20648.0939,8335
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,lake,geneva lake,pacific,marine,joes,stream,joes stream,geneva lake_joes stream,geneva_lake_joes_stream,2,Allopatric,0.352946678, Diff_Ecology, geneva    joes  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva lake_pacific_joes stream,18071.36492,8383
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,lake,geneva lake,pacific,marine,misty,stream,misty stream,geneva lake_misty stream,geneva_lake_misty_stream,2,Allopatric,0.388246335, Diff_Ecology, geneva    misty  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva lake_pacific_misty stream,18071.36492,8377
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,lake,geneva lake,pacific,marine,roberts,stream,roberts stream,geneva lake_roberts stream,geneva_lake_roberts_stream,2,Allopatric,0.393981143, Diff_Ecology, geneva    roberts  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva lake_pacific_roberts stream,18751.88307,8330
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,lake,geneva lake,pacific,marine,wc,stream,wc stream,geneva lake_wc stream,geneva_lake_wc_stream,2,Allopatric,0.308576465, Diff_Ecology, geneva    wc  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva lake_pacific_wc stream,18934.05605,8941
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,stream,geneva stream,pacific,marine,hadsten,lake,hadsten lake,geneva stream_hadsten lake,geneva_stream_hadsten_lake,2,Allopatric,0.285038965, Diff_Ecology, geneva    hadsten  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_geneva stream_pacific_hadsten lake,5634.130484,1152
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,stream,geneva stream,pacific,marine,hald,lake,hald lake,geneva stream_hald lake,geneva_stream_hald_lake,2,Allopatric,0.305083565, Diff_Ecology, geneva    hald  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_geneva stream_pacific_hald lake,5221.347563,1149
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,stream,geneva stream,pacific,marine,joes,lake,joes lake,geneva stream_joes lake,geneva_stream_joes_lake,2,Allopatric,0.376803801, Diff_Ecology, geneva    joes  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva stream_pacific_joes lake,18071.36492,8398
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,stream,geneva stream,pacific,marine,misty,lake,misty lake,geneva stream_misty lake,geneva_stream_misty_lake,2,Allopatric,0.385391711, Diff_Ecology, geneva    misty  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva stream_pacific_misty lake,18071.36492,8394
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,stream,geneva stream,pacific,marine,pcr,lake,pcr lake,geneva stream_pcr lake,geneva_stream_pcr_lake,2,Allopatric,0.301081498, Diff_Ecology, geneva    pcr  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva stream_pacific_pcr lake,18874.78526,8800
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,stream,geneva stream,pacific,marine,roberts,lake,roberts lake,geneva stream_roberts lake,geneva_stream_roberts_lake,2,Allopatric,0.417674549, Diff_Ecology, geneva    roberts  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva stream_pacific_roberts lake,18751.88307,8348
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hadsten,lake,hadsten lake,pacific,marine,joes,stream,joes stream,hadsten lake_joes stream,hadsten_lake_joes_stream,2,Allopatric,0.130131603, Diff_Ecology, hadsten    joes  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_hadsten lake_pacific_joes stream,14114.11412,7521
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hadsten,lake,hadsten lake,pacific,marine,misty,stream,misty stream,hadsten lake_misty stream,hadsten_lake_misty_stream,2,Allopatric,0.131569199, Diff_Ecology, hadsten    misty  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_hadsten lake_pacific_misty stream,14114.11412,7517
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hadsten,lake,hadsten lake,pacific,marine,roberts,stream,roberts stream,hadsten lake_roberts stream,hadsten_lake_roberts_stream,2,Allopatric,0.13039501, Diff_Ecology, hadsten    roberts  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_hadsten lake_pacific_roberts stream,14794.63227,7486
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hadsten,lake,hadsten lake,pacific,marine,wc,stream,wc stream,hadsten lake_wc stream,hadsten_lake_wc_stream,2,Allopatric,0.150277219, Diff_Ecology, hadsten    wc  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_hadsten lake_pacific_wc stream,14976.80525,8156
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hald,lake,hald lake,pacific,marine,joes,stream,joes stream,hald lake_joes stream,hald_lake_joes_stream,2,Allopatric,0.135597554, Diff_Ecology, hald    joes  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_hald lake_pacific_joes stream,13838.95003,7496
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hald,lake,hald lake,pacific,marine,misty,stream,misty stream,hald lake_misty stream,hald_lake_misty_stream,2,Allopatric,0.163990771, Diff_Ecology, hald    misty  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_hald lake_pacific_misty stream,13838.95003,7491
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hald,lake,hald lake,pacific,marine,wc,stream,wc stream,hald lake_wc stream,hald_lake_wc_stream,2,Allopatric,0.160478193, Diff_Ecology, hald    wc  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_hald lake_pacific_wc stream,14701.64116,8127
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,lake,joes lake,pacific,marine,misty,stream,misty stream,joes lake_misty stream,joes_lake_misty_stream,2,Allopatric,0.589588564, Diff_Ecology, joes    misty  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_joes lake_pacific_misty stream,32.31526693,9
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,lake,joes lake,pacific,marine,roberts,stream,roberts stream,joes lake_roberts stream,joes_lake_roberts_stream,2,Allopatric,0.580555563, Diff_Ecology, joes    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_joes lake_pacific_roberts stream,874.3524653,140
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,lake,joes lake,pacific,marine,wc,stream,wc stream,joes lake_wc stream,joes_lake_wc_stream,2,Allopatric,0.447874199, Diff_Ecology, joes    wc  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_joes lake_pacific_wc stream,1054.886729,838
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,stream,joes stream,pacific,marine,misty,lake,misty lake,joes stream_misty lake,joes_stream_misty_lake,2,Allopatric,0.602782217, Diff_Ecology, joes    misty  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_joes stream_pacific_misty lake,32.31526693,12
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,stream,joes stream,pacific,marine,mud,lake,mud lake,joes stream_mud lake,joes_stream_mud_lake,2,Allopatric,0.442724047, Diff_Ecology, joes    mud  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_joes stream_pacific_mud lake,2000.329369,1818
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,stream,joes stream,pacific,marine,pcr,lake,pcr lake,joes stream_pcr lake,joes_stream_pcr_lake,2,Allopatric,0.505730841, Diff_Ecology, joes    pcr  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_joes stream_pacific_pcr lake,969.6346534,902
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,stream,joes stream,pacific,marine,roberts,lake,roberts lake,joes stream_roberts lake,joes_stream_roberts_lake,2,Allopatric,0.618211043, Diff_Ecology, joes    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_joes stream_pacific_roberts lake,874.3524653,144
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,misty,lake,misty lake,pacific,marine,roberts,stream,roberts stream,misty lake_roberts stream,misty_lake_roberts_stream,2,Allopatric,0.729045846, Diff_Ecology, misty    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_misty lake_pacific_roberts stream,883.6852253,131
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,misty,lake,misty lake,pacific,marine,wc,stream,wc stream,misty lake_wc stream,misty_lake_wc_stream,2,Allopatric,0.575132687, Diff_Ecology, misty    wc  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_misty lake_pacific_wc stream,1064.219489,834
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,misty,stream,misty stream,pacific,marine,mud,lake,mud lake,misty stream_mud lake,misty_stream_mud_lake,2,Allopatric,0.554770071, Diff_Ecology, misty    mud  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_misty stream_pacific_mud lake,2006.69708,1825
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,misty,stream,misty stream,pacific,marine,pcr,lake,pcr lake,misty stream_pcr lake,misty_stream_pcr_lake,2,Allopatric,0.60398394, Diff_Ecology, misty    pcr  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_misty stream_pacific_pcr lake,978.9674133,897
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,misty,stream,misty stream,pacific,marine,roberts,lake,roberts lake,misty stream_roberts lake,misty_stream_roberts_lake,2,Allopatric,0.749571361, Diff_Ecology, misty    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_misty stream_pacific_roberts lake,883.6852253,133
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,mud,lake,mud lake,pacific,marine,roberts,stream,roberts stream,mud lake_roberts stream,mud_lake_roberts_stream,2,Allopatric,0.538485426, Diff_Ecology, mud    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_mud lake_pacific_roberts stream,2682.387971,1926
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,mud,lake,mud lake,pacific,marine,wc,stream,wc stream,mud lake_wc stream,mud_lake_wc_stream,2,Allopatric,0.47219019, Diff_Ecology, mud    wc  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_mud lake_pacific_wc stream,2862.922235,2617
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pcr,lake,pcr lake,pacific,marine,roberts,stream,roberts stream,pcr lake_roberts stream,pcr_lake_roberts_stream,2,Allopatric,0.60859615, Diff_Ecology, pcr    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_pcr lake_pacific_roberts stream,875.7044239,813
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pcr,lake,pcr lake,pacific,marine,wc,stream,wc stream,pcr lake_wc stream,pcr_lake_wc_stream,2,Allopatric,0.837996889, Diff_Ecology, pcr    wc  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_pcr lake_pacific_wc stream,92.5118747,248
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pri,limnetic,pri limnetic,pacific,marine,roberts,stream,roberts stream,pri limnetic_roberts stream,pri_limnetic_roberts_stream,2,Allopatric,0.419993218, Diff_Ecology, pri    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_pri limnetic_pacific_roberts stream,86.50731725,72
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pri,limnetic,pri limnetic,pacific,marine,wc,stream,wc stream,pri limnetic_wc stream,pri_limnetic_wc_stream,2,Allopatric,0.354210158, Diff_Ecology, pri    wc  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_pri limnetic_pacific_wc stream,896.3544554,735
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,roberts,lake,roberts lake,pacific,marine,wc,stream,wc stream,roberts lake_wc stream,roberts_lake_wc_stream,2,Allopatric,0.603490247, Diff_Ecology, roberts    wc  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_roberts lake_pacific_wc stream,961.0868583,782
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hald,lake,hald lake,pacific,marine,roberts,stream,roberts stream,hald lake_roberts stream,hald_lake_roberts_stream,1,Allopatric,0.152599084, Diff_Ecology, hald    roberts  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_hald lake_pacific_roberts stream,14519.46818,7460
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,pax,benthic,pax benthic,bea lake_pax benthic,bea_lake_pax_benthic,1,Allopatric,0.469829903, Diff_Ecology, bea    pax  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_bea lake_pacific_pax benthic,2595.480272,2041
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,pri,benthic,pri benthic,bea lake_pri benthic,bea_lake_pri_benthic,1,Allopatric,0.492221043, Diff_Ecology, bea    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_bea lake_pacific_pri benthic,2603.507119,2036
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,lq,benthic,lq benthic,boot lake_lq benthic,boot_lake_lq_benthic,1,Allopatric,0.326508357, Diff_Ecology, boot    lq  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot lake_pacific_lq benthic,120.3730956,96
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,pax,benthic,pax benthic,boot lake_pax benthic,boot_lake_pax_benthic,1,Allopatric,0.321340298, Diff_Ecology, boot    pax  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot lake_pacific_pax benthic,78.48047012,67
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,lake,boot lake,pacific,marine,pri,benthic,pri benthic,boot lake_pri benthic,boot_lake_pri_benthic,1,Allopatric,0.344055097, Diff_Ecology, boot    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot lake_pacific_pri benthic,86.50731725,63
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,lq,limnetic,lq limnetic,boot stream_lq limnetic,boot_stream_lq_limnetic,1,Allopatric,0.347490621, Diff_Ecology, boot    lq  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot stream_pacific_lq limnetic,120.3730956,97
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,pax,limnetic,pax limnetic,boot stream_pax limnetic,boot_stream_pax_limnetic,1,Allopatric,0.422031163, Diff_Ecology, boot    pax  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot stream_pacific_pax limnetic,78.48047012,68
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,boot,stream,boot stream,pacific,marine,pri,limnetic,pri limnetic,boot stream_pri limnetic,boot_stream_pri_limnetic,1,Allopatric,0.457705215, Diff_Ecology, boot    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_boot stream_pacific_pri limnetic,86.50731725,63
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,lake,constance lake,pacific,marine,lq,benthic,lq benthic,constance lake_lq benthic,constance_lake_lq_benthic,1,Allopatric,0.15359596, Diff_Ecology, constance    lq  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance lake_pacific_lq benthic,20559.16009,8338
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,lake,constance lake,pacific,marine,pax,benthic,pax benthic,constance lake_pax benthic,constance_lake_pax_benthic,1,Allopatric,0.117311776, Diff_Ecology, constance    pax  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance lake_pacific_pax benthic,20579.2316,8349
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,lake,constance lake,pacific,marine,pri,benthic,pri benthic,constance lake_pri benthic,constance_lake_pri_benthic,1,Allopatric,0.151885266, Diff_Ecology, constance    pri  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance lake_pacific_pri benthic,20579.2316,8347
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,stream,constance stream,pacific,marine,lq,limnetic,lq limnetic,constance stream_lq limnetic,constance_stream_lq_limnetic,1,Allopatric,0.160200407, Diff_Ecology, constance    lq  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance stream_pacific_lq limnetic,20559.16009,8336
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,stream,constance stream,pacific,marine,pax,limnetic,pax limnetic,constance stream_pax limnetic,constance_stream_pax_limnetic,1,Allopatric,0.15107765, Diff_Ecology, constance    pax  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance stream_pacific_pax limnetic,20579.2316,8347
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,constance,stream,constance stream,pacific,marine,pri,limnetic,pri limnetic,constance stream_pri limnetic,constance_stream_pri_limnetic,1,Allopatric,0.185494035, Diff_Ecology, constance    pri  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_constance stream_pacific_pri limnetic,20579.2316,8345
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,lake,geneva lake,pacific,marine,lq,benthic,lq benthic,geneva lake_lq benthic,geneva_lake_lq_benthic,1,Allopatric,0.088217475, Diff_Ecology, geneva    lq  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva lake_pacific_lq benthic,18662.94925,8327
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,lake,geneva lake,pacific,marine,pax,benthic,pax benthic,geneva lake_pax benthic,geneva_lake_pax_benthic,1,Allopatric,0.100859987, Diff_Ecology, geneva    pax  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva lake_pacific_pax benthic,18683.02076,8339
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,lake,geneva lake,pacific,marine,pri,benthic,pri benthic,geneva lake_pri benthic,geneva_lake_pri_benthic,1,Allopatric,0.102614694, Diff_Ecology, geneva    pri  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva lake_pacific_pri benthic,18683.02076,8337
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,stream,geneva stream,pacific,marine,lq,limnetic,lq limnetic,geneva stream_lq limnetic,geneva_stream_lq_limnetic,1,Allopatric,0.115414923, Diff_Ecology, geneva    lq  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva stream_pacific_lq limnetic,18662.94925,8345
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,stream,geneva stream,pacific,marine,mud,lake,mud lake,geneva stream_mud lake,geneva_stream_mud_lake,1,Allopatric,0.264201409, Diff_Ecology, geneva    mud  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva stream_pacific_mud lake,16597.0193,7834
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,stream,geneva stream,pacific,marine,pax,limnetic,pax limnetic,geneva stream_pax limnetic,geneva_stream_pax_limnetic,1,Allopatric,0.139976174, Diff_Ecology, geneva    pax  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva stream_pacific_pax limnetic,18683.02076,8357
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,geneva,stream,geneva stream,pacific,marine,pri,limnetic,pri limnetic,geneva stream_pri limnetic,geneva_stream_pri_limnetic,1,Allopatric,0.145628348, Diff_Ecology, geneva    pri  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_geneva stream_pacific_pri limnetic,18683.02076,8355
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hadsten,lake,hadsten lake,pacific,marine,lq,benthic,lq benthic,hadsten lake_lq benthic,hadsten_lake_lq_benthic,1,Allopatric,0.079055502, Diff_Ecology, hadsten    lq  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_hadsten lake_pacific_lq benthic,14705.69846,7496
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hadsten,lake,hadsten lake,pacific,marine,pax,benthic,pax benthic,hadsten lake_pax benthic,hadsten_lake_pax_benthic,1,Allopatric,0.055495855, Diff_Ecology, hadsten    pax  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_hadsten lake_pacific_pax benthic,14725.76997,7504
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hadsten,lake,hadsten lake,pacific,marine,pri,benthic,pri benthic,hadsten lake_pri benthic,hadsten_lake_pri_benthic,1,Allopatric,0.076779785, Diff_Ecology, hadsten    pri  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_hadsten lake_pacific_pri benthic,14725.76997,7502
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hald,lake,hald lake,pacific,marine,lq,benthic,lq benthic,hald lake_lq benthic,hald_lake_lq_benthic,1,Allopatric,0.118135857, Diff_Ecology, hald    lq  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_hald lake_pacific_lq benthic,14430.53436,7469
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hald,lake,hald lake,pacific,marine,pax,benthic,pax benthic,hald lake_pax benthic,hald_lake_pax_benthic,1,Allopatric,0.10777555, Diff_Ecology, hald    pax  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_hald lake_pacific_pax benthic,14450.60587,7478
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,hald,lake,hald lake,pacific,marine,pri,benthic,pri benthic,hald lake_pri benthic,hald_lake_pri_benthic,1,Allopatric,0.131200855, Diff_Ecology, hald    pri  , Diff_Ocean,Diff_Ecology_Diff_Ocean,Allopatric,pacific_hald lake_pacific_pri benthic,14450.60587,7475
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,lake,joes lake,pacific,marine,lq,benthic,lq benthic,joes lake_lq benthic,joes_lake_lq_benthic,1,Allopatric,0.31863571, Diff_Ecology, joes    lq  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_joes lake_pacific_lq benthic,782.5323523,241
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,lake,joes lake,pacific,marine,pax,benthic,pax benthic,joes lake_pax benthic,joes_lake_pax_benthic,1,Allopatric,0.298449874, Diff_Ecology, joes    pax  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_joes lake_pacific_pax benthic,801.5932153,211
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,lake,joes lake,pacific,marine,pri,benthic,pri benthic,joes lake_pri benthic,joes_lake_pri_benthic,1,Allopatric,0.318750738, Diff_Ecology, joes    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_joes lake_pacific_pri benthic,809.6200624,207
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,stream,joes stream,pacific,marine,lq,limnetic,lq limnetic,joes stream_lq limnetic,joes_stream_lq_limnetic,1,Allopatric,0.279552474, Diff_Ecology, joes    lq  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_joes stream_pacific_lq limnetic,782.5323523,243
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,stream,joes stream,pacific,marine,pax,limnetic,pax limnetic,joes stream_pax limnetic,joes_stream_pax_limnetic,1,Allopatric,0.336408631, Diff_Ecology, joes    pax  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_joes stream_pacific_pax limnetic,801.5932153,213
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,joes,stream,joes stream,pacific,marine,pri,limnetic,pri limnetic,joes stream_pri limnetic,joes_stream_pri_limnetic,1,Allopatric,0.342788512, Diff_Ecology, joes    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_joes stream_pacific_pri limnetic,809.6200624,209
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,benthic,lq benthic,pacific,marine,misty,lake,misty lake,lq benthic_misty lake,lq_benthic_misty_lake,1,Allopatric,0.508996162, Diff_Ecology, lq    misty  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_lq benthic_pacific_misty lake,791.8651122,231
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,benthic,lq benthic,pacific,marine,mud,lake,mud lake,lq benthic_mud lake,lq_benthic_mud_lake,1,Allopatric,0.511827905, Diff_Ecology, lq    mud  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_lq benthic_pacific_mud lake,2590.567858,2024
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,benthic,lq benthic,pacific,marine,pcr,lake,pcr lake,lq benthic_pcr lake,lq_benthic_pcr_lake,1,Allopatric,0.449835377, Diff_Ecology, lq    pcr  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_lq benthic_pacific_pcr lake,783.8843108,730
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,benthic,lq benthic,pacific,marine,roberts,lake,roberts lake,lq benthic_roberts lake,lq_benthic_roberts_lake,1,Allopatric,0.434496465, Diff_Ecology, lq    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_lq benthic_pacific_roberts lake,120.3730956,102
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,limnetic,lq limnetic,pacific,marine,misty,stream,misty stream,lq limnetic_misty stream,lq_limnetic_misty_stream,1,Allopatric,0.354781334, Diff_Ecology, lq    misty  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_lq limnetic_pacific_misty stream,791.8651122,232
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,limnetic,lq limnetic,pacific,marine,roberts,stream,roberts stream,lq limnetic_roberts stream,lq_limnetic_roberts_stream,1,Allopatric,0.31612959, Diff_Ecology, lq    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_lq limnetic_pacific_roberts stream,120.3730956,104
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,limnetic,lq limnetic,pacific,marine,wc,stream,wc stream,lq limnetic_wc stream,lq_limnetic_wc_stream,1,Allopatric,0.249894495, Diff_Ecology, lq    wc  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_lq limnetic_pacific_wc stream,869.2667453,725
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,misty,lake,misty lake,pacific,marine,pax,benthic,pax benthic,misty lake_pax benthic,misty_lake_pax_benthic,1,Allopatric,0.495618421, Diff_Ecology, misty    pax  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_misty lake_pacific_pax benthic,810.9259752,202
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,misty,lake,misty lake,pacific,marine,pri,benthic,pri benthic,misty lake_pri benthic,misty_lake_pri_benthic,1,Allopatric,0.524913955, Diff_Ecology, misty    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_misty lake_pacific_pri benthic,818.9528223,197
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,misty,stream,misty stream,pacific,marine,pax,limnetic,pax limnetic,misty stream_pax limnetic,misty_stream_pax_limnetic,1,Allopatric,0.425783625, Diff_Ecology, misty    pax  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_misty stream_pacific_pax limnetic,810.9259752,203
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,misty,stream,misty stream,pacific,marine,pri,limnetic,pri limnetic,misty stream_pri limnetic,misty_stream_pri_limnetic,1,Allopatric,0.460683896, Diff_Ecology, misty    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_misty stream_pacific_pri limnetic,818.9528223,198
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,mud,lake,mud lake,pacific,marine,pax,benthic,pax benthic,mud lake_pax benthic,mud_lake_pax_benthic,1,Allopatric,0.508195294, Diff_Ecology, mud    pax  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_mud lake_pacific_pax benthic,2609.628721,2001
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,mud,lake,mud lake,pacific,marine,pri,benthic,pri benthic,mud lake_pri benthic,mud_lake_pri_benthic,1,Allopatric,0.534091154, Diff_Ecology, mud    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_mud lake_pacific_pri benthic,2617.655568,1996
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pax,benthic,pax benthic,pacific,marine,pcr,lake,pcr lake,pax benthic_pcr lake,pax_benthic_pcr_lake,1,Allopatric,0.429724908, Diff_Ecology, pax    pcr  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_pax benthic_pacific_pcr lake,802.9451738,745
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pax,benthic,pax benthic,pacific,marine,roberts,lake,roberts lake,pax benthic_roberts lake,pax_benthic_roberts_lake,1,Allopatric,0.407782138, Diff_Ecology, pax    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_pax benthic_pacific_roberts lake,78.48047012,75
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pax,limnetic,pax limnetic,pacific,marine,roberts,stream,roberts stream,pax limnetic_roberts stream,pax_limnetic_roberts_stream,1,Allopatric,0.391768993, Diff_Ecology, pax    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_pax limnetic_pacific_roberts stream,78.48047012,76
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pax,limnetic,pax limnetic,pacific,marine,wc,stream,wc stream,pax limnetic_wc stream,pax_limnetic_wc_stream,1,Allopatric,0.302991309, Diff_Ecology, pax    wc  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_pax limnetic_pacific_wc stream,888.3276083,731
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pcr,lake,pcr lake,pacific,marine,pri,benthic,pri benthic,pcr lake_pri benthic,pcr_lake_pri_benthic,1,Allopatric,0.476490109, Diff_Ecology, pcr    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_pcr lake_pacific_pri benthic,810.972021,750
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pri,benthic,pri benthic,pacific,marine,roberts,lake,roberts lake,pri benthic_roberts lake,pri_benthic_roberts_lake,1,Allopatric,0.434676339, Diff_Ecology, pri    roberts  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_pri benthic_pacific_roberts lake,86.50731725,70
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,bea,lake,bea lake,pacific,marine,lq,benthic,lq benthic,bea lake_lq benthic,bea_lake_lq_benthic,1,Allopatric,0.460711155, Diff_Ecology, bea    lq  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_bea lake_pacific_lq benthic,2576.419409,2064
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,benthic,lq benthic,pacific,marine,pax,limnetic,pax limnetic,lq benthic_pax limnetic,lq_benthic_pax_limnetic,0,Allopatric,0.627651604, Diff_Ecology, lq    pax  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_lq benthic_pacific_pax limnetic,28.79342402,30
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,benthic,lq benthic,pacific,marine,pri,limnetic,pri limnetic,lq benthic_pri limnetic,lq_benthic_pri_limnetic,0,Allopatric,0.673546697, Diff_Ecology, lq    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_lq benthic_pacific_pri limnetic,36.82027115,34
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,limnetic,lq limnetic,pacific,marine,pax,benthic,pax benthic,lq limnetic_pax benthic,lq_limnetic_pax_benthic,0,Allopatric,0.54283875, Diff_Ecology, lq    pax  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_lq limnetic_pacific_pax benthic,28.79342402,30
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,lq,limnetic,lq limnetic,pacific,marine,pri,benthic,pri benthic,lq limnetic_pri benthic,lq_limnetic_pri_benthic,0,Allopatric,0.571929417, Diff_Ecology, lq    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_lq limnetic_pacific_pri benthic,36.82027115,34
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pax,benthic,pax benthic,pacific,marine,pri,limnetic,pri limnetic,pax benthic_pri limnetic,pax_benthic_pri_limnetic,0,Allopatric,0.66495483, Diff_Ecology, pax    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_pax benthic_pacific_pri limnetic,27.22246315,5
+,,,,,,,,,,,,,,,,,,,,,,
+pacific,marine,pax,limnetic,pax limnetic,pacific,marine,pri,benthic,pri benthic,pax limnetic_pri benthic,pax_limnetic_pri_benthic,0,Allopatric,0.64630915, Diff_Ecology, pax    pri  , Same_Ocean,Diff_Ecology_Same_Ocean,Allopatric,pacific_pax limnetic_pacific_pri benthic,27.22246315,5

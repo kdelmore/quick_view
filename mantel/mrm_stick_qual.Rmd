@@ -1,0 +1,156 @@
+---
+title: "mrm_stick_qual"
+author: "kira delmore"
+date: "Sep 24, 2018"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+#### load libs and data
+```{r, message=F, warning=F}
+library(tidyverse)
+library(ecodist)
+cor.tidy <- read_csv("C:/Users/Kira/Desktop/stickleback/cor_out3b_continuous_distance.csv")
+```
+
+#### randomly sample one population from those in same watershed
+#### means that we go from having 23 comparisons to 14 in matrix format
+#### random.org to randomly sample 1 of each pair (yup, that's how i did it)
+```{r}
+# boot	stream
+# constance	lake
+# geneva	lake
+# joes	stream
+# lq	benthic
+# misty	lake
+# pax	limnetic
+# pri	benthic
+# roberts	lake
+nrow(cor.tidy)
+cor.tidy <- cor.tidy[!grepl("boot_stream", cor.tidy$pop_comp),]
+cor.tidy <- cor.tidy[!grepl("constance_lake", cor.tidy$pop_comp),]
+cor.tidy <- cor.tidy[!grepl("geneva_lake", cor.tidy$pop_comp),]
+cor.tidy <- cor.tidy[!grepl("joes_stream", cor.tidy$pop_comp),]
+cor.tidy <- cor.tidy[!grepl("lq_benthic", cor.tidy$pop_comp),]
+cor.tidy <- cor.tidy[!grepl("misty_lake", cor.tidy$pop_comp),]
+cor.tidy <- cor.tidy[!grepl("pax_limnetic", cor.tidy$pop_comp),]
+cor.tidy <- cor.tidy[!grepl("pri_benthic", cor.tidy$pop_comp),]
+cor.tidy <- cor.tidy[!grepl("roberts_lake", cor.tidy$pop_comp),]
+nrow(cor.tidy)
+```
+
+#### get fst matrix together
+#### gregs loop
+```{r}
+pops <- sort(unique(cor.tidy$pop2))
+
+fst <- matrix(nrow = length(pops),ncol=length(pops))
+for (i in 1:length(pops)){
+  for (j in 1:length(pops)){
+    
+    tmp<- cor.tidy %>% filter(pop1 == pops[i], pop2 == pops[j]) %>% select(Correlation) %>% .$Correlation
+    if (length(tmp) == 1){
+      fst[i,j] <- tmp
+    }
+
+  }
+}
+
+## have to flip this matrix
+## i dont know why I can't figure this out more elegantly
+fst <- apply(fst, 2, rev)
+fst <- t(apply(fst, 2, rev))
+fst <- as.dist(fst)
+```
+
+#### get ecology matrix together
+#### ordered with 3<2<1<0
+```{r}
+cor.tidy$Qual_ecology_score <- ordered(cor.tidy$Qual_ecology_score,levels=c("3","2","1","0"))
+pops <- sort(unique(cor.tidy$pop2))
+
+ecology <- matrix(nrow = length(pops),ncol=length(pops))
+for (i in 1:length(pops)){
+  for (j in 1:length(pops)){
+    
+    tmp<- cor.tidy %>% filter(pop1 == pops[i], pop2 == pops[j]) %>% select(Qual_ecology_score) %>% .$Qual_ecology_score
+    if (length(tmp) == 1){
+      ecology[i,j] <- tmp
+    }
+    
+  }
+}
+
+ecology <- apply(ecology, 2, rev)
+ecology <- t(apply(ecology, 2, rev))
+ecology <- as.dist(ecology)
+```
+
+#### get least cost matrix together
+```{r}
+pops <- sort(unique(cor.tidy$pop2))
+
+lcd <- matrix(nrow = length(pops),ncol=length(pops))
+for (i in 1:length(pops)){
+  for (j in 1:length(pops)){
+    
+    tmp<- cor.tidy %>% filter(pop1 == pops[i], pop2 == pops[j]) %>% select(least.cost.distance) %>% .$least.cost.distance
+    if (length(tmp) == 1){
+      lcd[i,j] <- tmp
+    }
+    
+  }
+}
+
+lcd <- apply(lcd, 2, rev)
+lcd <- t(apply(lcd, 2, rev))
+lcd <- as.dist(lcd)
+```
+
+#### get euc dist matrix together
+#### have to convert from integer to num for some reason
+```{r}
+cor.tidy$euc.distance <- as.numeric(cor.tidy$euc.distance)
+
+pops <- sort(unique(cor.tidy$pop2))
+
+euc <- matrix(nrow = length(pops),ncol=length(pops))
+for (i in 1:length(pops)){
+  for (j in 1:length(pops)){
+    
+    tmp<- cor.tidy %>% filter(pop1 == pops[i], pop2 == pops[j]) %>% select(euc.distance) %>% .$euc.distance
+    if (length(tmp) == 1){
+      euc[i,j] <- tmp
+    }
+    
+  }
+}
+
+euc <- apply(euc, 2, rev)
+euc <- t(apply(euc, 2, rev))
+euc <- as.dist(euc)
+```
+
+### check out the data
+```{r}
+plot(fst,ecology)
+plot(fst,lcd)
+plot(fst,euc)
+plot(ecology,lcd)
+plot(ecology,euc)
+```
+
+#### run MRM tests as well in case
+```{r}
+MRM(fst~ecology+lcd,nperm = 10000)
+MRM(fst~ecology+euc,nperm = 10000)
+```
+
+### simple mantel tests
+```{r}
+library(biotools)
+mantelTest(fst,ecology,alternative="two.sided")
+mantelTest(fst,lcd,alternative="two.sided")
+mantelTest(fst,euc,alternative="two.sided")
+```

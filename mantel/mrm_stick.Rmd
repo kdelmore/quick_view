@@ -1,0 +1,140 @@
+---
+title: "mrm_stick"
+author: "kira delmore"
+date: "may 5, 2018"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+#### load libs and data
+```{r, message=F, warning=F}
+library(tidyverse)
+library(ecodist)
+cor.tidy <- read_csv("C:/Users/Kira/Desktop/stickleback/cor_out3b.csv")
+```
+
+#### randomly sample one population from those in same watershed
+#### means that we go from having 23 comparisons to 14 in matrix format
+#### random.org to randomly sample 1 of each pair (yup, that's how i did it)
+```{r}
+# boot	stream
+# constance	lake
+# geneva	lake
+# joes	stream
+# lq	benthic
+# misty	lake
+# pax	limnetic
+# pri	benthic
+# roberts	lake
+nrow(cor.tidy)
+cor.tidy <- cor.tidy[!grepl("boot_stream", cor.tidy$pop_comp),]
+cor.tidy <- cor.tidy[!grepl("constance_lake", cor.tidy$pop_comp),]
+cor.tidy <- cor.tidy[!grepl("geneva_lake", cor.tidy$pop_comp),]
+cor.tidy <- cor.tidy[!grepl("joes_stream", cor.tidy$pop_comp),]
+cor.tidy <- cor.tidy[!grepl("lq_benthic", cor.tidy$pop_comp),]
+cor.tidy <- cor.tidy[!grepl("misty_lake", cor.tidy$pop_comp),]
+cor.tidy <- cor.tidy[!grepl("pax_limnetic", cor.tidy$pop_comp),]
+cor.tidy <- cor.tidy[!grepl("pri_benthic", cor.tidy$pop_comp),]
+cor.tidy <- cor.tidy[!grepl("roberts_lake", cor.tidy$pop_comp),]
+nrow(cor.tidy)
+```
+
+#### get fst matrix together
+#### gregs loop
+```{r}
+pops <- sort(unique(cor.tidy$pop2))
+
+fst <- matrix(nrow = length(pops),ncol=length(pops))
+for (i in 1:length(pops)){
+  for (j in 1:length(pops)){
+    
+    tmp<- cor.tidy %>% filter(pop1 == pops[i], pop2 == pops[j]) %>% select(Correlation) %>% .$Correlation
+    if (length(tmp) == 1){
+      fst[i,j] <- tmp
+    }
+
+  }
+}
+
+## have to flip this matrix
+## i dont know why I can't figure this out more elegantly
+fst <- apply(fst, 2, rev)
+fst <- t(apply(fst, 2, rev))
+fst <- as.dist(fst)
+```
+
+#### get ecology matrix together
+#### binomial for now because im not sure where the qualitative variable is 
+#### there are two variables it could be but both have four categories and i think should only have 3
+```{r}
+unique(cor.tidy$Ecology)
+cor.tidy$Ecology <- gsub("Same_Ecology","0",cor.tidy$Ecology)
+cor.tidy$Ecology <- gsub("Diff_Ecology","1",cor.tidy$Ecology)
+unique(cor.tidy$Ecology)
+
+pops <- sort(unique(cor.tidy$pop2))
+
+ecology <- matrix(nrow = length(pops),ncol=length(pops))
+for (i in 1:length(pops)){
+  for (j in 1:length(pops)){
+    
+    tmp<- cor.tidy %>% filter(pop1 == pops[i], pop2 == pops[j]) %>% select(Ecology) %>% .$Ecology
+    if (length(tmp) == 1){
+      ecology[i,j] <- tmp
+    }
+    
+  }
+}
+
+ecology <- apply(ecology, 2, rev)
+ecology <- t(apply(ecology, 2, rev))
+ecology <- as.dist(ecology)
+```
+
+#### get geography matrix together
+#### binomial for now because im not sure where the qualitative variable is 
+```{r}
+unique(cor.tidy$Geography)
+cor.tidy$Geography <- gsub("Same_Ocean","0",cor.tidy$Geography)
+cor.tidy$Geography <- gsub("Diff_Ocean","1",cor.tidy$Geography)
+unique(cor.tidy$Geography)
+
+pops <- sort(unique(cor.tidy$pop2))
+
+geography <- matrix(nrow = length(pops),ncol=length(pops))
+for (i in 1:length(pops)){
+  for (j in 1:length(pops)){
+    
+    tmp<- cor.tidy %>% filter(pop1 == pops[i], pop2 == pops[j]) %>% select(Geography) %>% .$Geography
+    if (length(tmp) == 1){
+      geography[i,j] <- tmp
+    }
+    
+  }
+}
+
+geography <- apply(geography, 2, rev)
+geography <- t(apply(geography, 2, rev))
+geography <- as.dist(geography)
+```
+
+### check out the data
+```{r}
+plot(fst,ecology)
+plot(fst,geography)
+```
+
+#### run MRM
+#### interpretation of result = both ecology and geography explain sign variation in pairwise fst
+#### based on para estimates geog more impt (also if i run a simple mantel test with just fst and ecol the corr is not sign)
+```{r}
+MRM(fst~ecology+geography,nperm = 10000)
+```
+
+### simple mantel tests
+```{r}
+library(biotools)
+mantelTest(fst,ecology,alternative="two.sided")
+mantelTest(fst,geography,alternative="two.sided")
+```

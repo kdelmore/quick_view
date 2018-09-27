@@ -1,0 +1,69 @@
+---
+title: "mrm_stick_fst_comp_v2"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+#### load libs and data
+```{r, message=F, warning=F}
+library(tidyverse)
+library(ecodist)
+cor.tidy <- read_csv("C:/Users/Kira/Desktop/stickleback/cor_out_fresh_fresh_marine_freshb_v2.csv") 
+```
+
+#### get fst matrix and diverg/non-diverg matrix
+```{r}
+cor.tidy %>% 
+  unite(pop_pair1,pop1, type1, pop2,type2,sep="-") %>%
+  unite(pop_pair2, pop3, type3, pop4,type4,sep="-") -> cor.tidy
+
+pops <- sort(unique(c(unique(cor.tidy$pop_pair1), unique(cor.tidy$pop_pair2))))
+
+fst <- matrix(nrow = length(pops),ncol=length(pops))
+for (i in 1:length(pops)){
+  for (j in i:length(pops)){
+    
+    tmp<- cor.tidy %>% filter(pop_pair1 == pops[i] & pop_pair2 == pops[j]) %>% select(Correlation) %>% .$Correlation
+    if (length(tmp) == 0){
+      tmp<- cor.tidy %>% filter(pop_pair1 == pops[j] & pop_pair2 == pops[i]) %>% select(Correlation) %>% .$Correlation
+    }
+    if (length(tmp) == 1){
+      fst[i,j] <- tmp
+    }
+    
+  }
+}
+fst <- apply(fst, 2, rev)
+fst <- t(apply(fst, 2, rev))
+fst <- as.dist(fst)
+
+cor.tidy$Comparison <- gsub("Non Divergent Selection","0",cor.tidy$Comparison)
+cor.tidy$Comparison <- gsub("Parallel Divergent Selection","1",cor.tidy$Comparison)
+
+comparison <- matrix(nrow = length(pops),ncol=length(pops))
+for (i in 1:length(pops)){
+  for (j in i:length(pops)){
+    
+    tmp<- cor.tidy %>% filter(pop_pair1 == pops[i], pop_pair2 == pops[j]) %>% select(Comparison) %>% .$Comparison
+    if (length(tmp) == 0){
+      tmp<- cor.tidy %>% filter(pop_pair1 == pops[j] & pop_pair2 == pops[i]) %>% select(Comparison) %>% .$Comparison
+    }
+    if (length(tmp) == 1){
+      comparison[i,j] <- tmp
+    }
+    
+  }
+}
+
+comparison <- apply(comparison, 2, rev)
+comparison <- t(apply(comparison, 2, rev))
+comparison <- as.dist(comparison)
+```
+
+#### easiest to see comparison matrix
+```{r}
+pops
+comparison
+```
+
