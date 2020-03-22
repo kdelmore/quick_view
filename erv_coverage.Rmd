@@ -14,13 +14,13 @@ dat <- read.csv("C:/Users/Kira/Dropbox/Projects_Desktop/Blackbird_Analysis/erv_c
 
 #### average coverage for the 10 ERVs identified by censor  
 ```{r }
-kable(colMeans(dat[,7:16]),col.names = c("avg_cov"))
+kable(colMeans(dat[,7:16]),col.names = c("avg_cov"), format = "markdown")
 ```
 
 #### average coverage for housekeeping genes randomly selected from the genome
 #### much higher then all ERVs
 ```{r }
-kable(colMeans(dat[,20:24]),col.names = c("avg_cov"))
+kable(colMeans(dat[,20:24]),col.names = c("avg_cov"),  format = "markdown")
 ```
 
 #### average genome coverage overall
@@ -31,7 +31,7 @@ mean(dat$genome_cov)
 
 #### coverage at the ERVs has nothing to do with phenotype
 ```{r }
-kable(aggregate(dat[, 7:16], list(dat$pheno), mean))
+kable(aggregate(dat[, 7:16], list(dat$pheno), mean), format = "markdown")
 ```
 
 #### two of the snps with high fsts are in the second ERV identified by censor
@@ -43,7 +43,7 @@ plot(dat$genome_cov,dat$erv_2)
 #### this is unrelated to phenotype
 ```{r }
 low_cov <- subset(dat,dat$erv_2<2)
-kable(low_cov$pheno)
+kable(low_cov$pheno, format = "markdown")
 ```
 
 #### it is like there are three variants here - deletion, 0 or 1 at the SNPs

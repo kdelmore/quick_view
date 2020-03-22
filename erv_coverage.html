@@ -190,53 +190,53 @@ summary {
 <pre class="r"><code>dat &lt;- read.csv(&quot;C:/Users/Kira/Dropbox/Projects_Desktop/Blackbird_Analysis/erv_coverage.csv&quot;)</code></pre>
 <div id="average-coverage-for-the-10-ervs-identified-by-censor" class="section level4">
 <h4>average coverage for the 10 ERVs identified by censor</h4>
-<pre class="r"><code>kable(colMeans(dat[,7:16]),col.names = c(&quot;avg_cov&quot;))</code></pre>
+<pre class="r"><code>kable(colMeans(dat[,7:16]),col.names = c(&quot;avg_cov&quot;), format = &quot;markdown&quot;)</code></pre>
 <table>
 <thead>
 <tr class="header">
-<th></th>
+<th align="left"></th>
 <th align="right">avg_cov</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>erv_1</td>
+<td align="left">erv_1</td>
 <td align="right">8.455642</td>
 </tr>
 <tr class="even">
-<td>erv_2</td>
+<td align="left">erv_2</td>
 <td align="right">5.266484</td>
 </tr>
 <tr class="odd">
-<td>erv_3</td>
+<td align="left">erv_3</td>
 <td align="right">5.836723</td>
 </tr>
 <tr class="even">
-<td>erv_4</td>
+<td align="left">erv_4</td>
 <td align="right">3.376046</td>
 </tr>
 <tr class="odd">
-<td>erv_5</td>
+<td align="left">erv_5</td>
 <td align="right">2.589509</td>
 </tr>
 <tr class="even">
-<td>erv_6</td>
+<td align="left">erv_6</td>
 <td align="right">5.552774</td>
 </tr>
 <tr class="odd">
-<td>erv_7</td>
+<td align="left">erv_7</td>
 <td align="right">5.921811</td>
 </tr>
 <tr class="even">
-<td>erv_8</td>
+<td align="left">erv_8</td>
 <td align="right">14.791845</td>
 </tr>
 <tr class="odd">
-<td>erv_9</td>
+<td align="left">erv_9</td>
 <td align="right">11.895772</td>
 </tr>
 <tr class="even">
-<td>erv_10</td>
+<td align="left">erv_10</td>
 <td align="right">7.630252</td>
 </tr>
 </tbody>
@@ -247,33 +247,33 @@ summary {
 </div>
 <div id="much-higher-then-all-ervs" class="section level4">
 <h4>much higher then all ERVs</h4>
-<pre class="r"><code>kable(colMeans(dat[,20:24]),col.names = c(&quot;avg_cov&quot;))</code></pre>
+<pre class="r"><code>kable(colMeans(dat[,20:24]),col.names = c(&quot;avg_cov&quot;),  format = &quot;markdown&quot;)</code></pre>
 <table>
 <thead>
 <tr class="header">
-<th></th>
+<th align="left"></th>
 <th align="right">avg_cov</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>hk_gene_scaf149</td>
+<td align="left">hk_gene_scaf149</td>
 <td align="right">15.30006</td>
 </tr>
 <tr class="even">
-<td>hk_gene_scaf355</td>
+<td align="left">hk_gene_scaf355</td>
 <td align="right">10.38429</td>
 </tr>
 <tr class="odd">
-<td>hk_gene_scaf156</td>
+<td align="left">hk_gene_scaf156</td>
 <td align="right">14.28098</td>
 </tr>
 <tr class="even">
-<td>hk_gene_scaf237</td>
+<td align="left">hk_gene_scaf237</td>
 <td align="right">17.55888</td>
 </tr>
 <tr class="odd">
-<td>hk_gene_scaf001</td>
+<td align="left">hk_gene_scaf001</td>
 <td align="right">15.22290</td>
 </tr>
 </tbody>
@@ -289,8 +289,21 @@ summary {
 </div>
 <div id="coverage-at-the-ervs-has-nothing-to-do-with-phenotype" class="section level4">
 <h4>coverage at the ERVs has nothing to do with phenotype</h4>
-<pre class="r"><code>kable(aggregate(dat[, 7:16], list(dat$pheno), mean))</code></pre>
-<table>
+<pre class="r"><code>kable(aggregate(dat[, 7:16], list(dat$pheno), mean), format = &quot;markdown&quot;)</code></pre>
+<table style="width:100%;">
+<colgroup>
+<col width="8%"></col>
+<col width="9%"></col>
+<col width="9%"></col>
+<col width="9%"></col>
+<col width="9%"></col>
+<col width="9%"></col>
+<col width="9%"></col>
+<col width="9%"></col>
+<col width="9%"></col>
+<col width="9%"></col>
+<col width="9%"></col>
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Group.1</th>
@@ -347,7 +360,7 @@ summary {
 <div id="this-is-unrelated-to-phenotype" class="section level4">
 <h4>this is unrelated to phenotype</h4>
 <pre class="r"><code>low_cov &lt;- subset(dat,dat$erv_2&lt;2)
-kable(low_cov$pheno)</code></pre>
+kable(low_cov$pheno, format = &quot;markdown&quot;)</code></pre>
 <table>
 <thead>
 <tr class="header">
