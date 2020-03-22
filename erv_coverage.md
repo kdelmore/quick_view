@@ -85,7 +85,7 @@ kable(aggregate(dat[, 7:16], list(dat$pheno), mean), format = "markdown")
 #### two of the snps with high fsts are in the second ERV identified by censor
 
 ```r
-plot(dat$genome_cov,dat$erv_2)
+plot(dat$genome_cov,dat$erv_2,ylim=c(0,11))
 ```
 
 ![](erv_coverage_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
